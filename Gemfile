@@ -28,7 +28,7 @@ gem 'foundation-rails'
 
 gem 'devise'
 
-gem 'redis', '~> 3.0.1'
+gem 'redis', '~> 3.0.1', :require => ["redis", "redis/connection/hiredis"]
 gem 'hiredis', '~> 0.4.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
